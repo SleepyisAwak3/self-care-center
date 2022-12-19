@@ -1,51 +1,31 @@
-# Self Care Center
-## Overview
-How can I care for myself? One way is with affirmations and mantras!
-Affirmations are thoughts of positive self-empowerment, meant to assert your self-worth.
-Mantras are repetive phrases that are repeated again and again during mindfulness practices. Your challenge is to build an app that helps users remind themselves of their inherent value!
-
-This Solo Challenge gives students and instructors the opportunity to get a pulse on where you are with the foundational concepts of Module 1 curriculum. Students should use this as an opportunity to challenge themselves and work completely independently. Google can (and probably should!) be used, but any other code base should not be referenced. Instructors will be able to use your work, both completion of functionality and code quality, to determine where you stand and if you are behind for this point in the module, provide supports to intervene.
-
-The spec for this project can be found [here](https://frontend.turing.io/projects/module-1/self-care-center.html). 
-
-## Learning Goals
-
-- Gain experience building an application that utilizes HTML, CSS and JavaScript
-- Write HTML and CSS to match a provided comp
-- Understand how to listen to and respond to user events
-- Individualize your programming skill set
-
-## Setup
-
-- Fork this project to your own Github account
-- Clone the repository to your local machine
-- `cd` into the project
-- Read this README thoroughly, then begin working!
-
-______________________________________________________  
-# README Template  
-Before turning this project in, erase this line and everything above it and fill in the info below.  
-______________________________________________________  
+_____________________________________________________  
 
 # Self-Care Center 
 
 ### Abstract:
-[//]: <> (Briefly describe what you built and its features. What problem is the app solving? How does this application solve that problem?)
+  I built a working website where users can get random affirmations or mantras of their own choosing. Within the website also features the ability to enter your own affirmation or mantra in, and have it added to the array of them. After fully cycling through the list, the users creation will pop up as if it has already been added originally. This app is solving the problem of not having something to help motivate you and keep it fresh. By both having the create your own and randomizer, it really does put the power of motivation in the users hands!
 
 ### Installation Instructions:
-[//]: <> (What steps does a person have to take to get your app cloned down and running?)
+1. Fork this Repo
+2. Open terminal and navagaite where you would like to store the application.
+3. Type git clone 
+4. Copy the SSH and paste it next to git clone.
+5. Once file is pulled down and copied, navigate into the directorty romcom. 
+6. Type the phrase "open index.html" into your terminal to open the test window of the application.
 
 ### Preview of App:
-[//]: <> (Provide ONE gif or screenshot of your application - choose the "coolest" piece of functionality to show off.)
+https://gist.github.com/SleepyisAwak3/df79ffda7ec02dbe7a386200f5402e6d
 
 ### Context:
-[//]: <> (Give some context for the project here. How long did you have to work on it? How far into the Turing program are you?)
+ 
+This project was assignement assigned 5 days ago. I am now through my third week of Mod 1 at Turing.
 
 ### Contributors:
-[//]: <> (Who worked on this application? Link to their GitHubs.)
+Noah Byers - https://github.com/SleepyisAwak3 
 
 ### Learning Goals:
-[//]: <> (What were the learning goals of this project? What tech did you work with?)
+The goals of this project were to gain more experience using HTML, CSS, and Javascript all in coordination with each other. We wanted to use HTML and CSS specifically to try and match a given goal. It was nice as it was mostly from the ground up so you really got to see how everything had an effect in it. 
 
 ### Wins + Challenges:
-[//]: <> (What are 2-3 wins you have from this project? What were some challenges you faced - and how did you get over them?)
+
+1. The biggest wins were finally getting full functionality. The code would work but then would break after adding something new. I did find that part challeneging but the reward was such an awesome feeling!

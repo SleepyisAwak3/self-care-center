@@ -1,3 +1,5 @@
+
+/*------------------------------------- Affirmations and Mantra Arrays ------------------------------------*/
 var affirmations = ["I forgive myself and set myself free.", "I believe I can be all that I want to be.", "I am in the process of becoming the best version of myself.", 
 "I have the freedom & power to create the life I desire.", "I choose to be kind to myself and love myself unconditionally.", "My possibilities are endless.",
 "I am worthy of my dreams.", "I am enough.", "I deserve to be healthy and feel good.", "I am full of energy and vitality and my mind is calm and peaceful.", 
@@ -10,7 +12,7 @@ var mantras = ["Breathing in, I send myself love. Breathing out, I send love to 
 "I love myself.", "I am present now.", "Inhale the future, exhale the past.", "This too shall pass.", "Yesterday is not today.", "The only constant is change.", 
 "Onward and upward.", " I am the sky, the rest is weather."]
 
-
+/*------------------------------------- Query Selectors  ------------------------------------*/
 var hideTopinfo = document.querySelector(".three-buttons")
 var receiveMessageButton = document.querySelector(".message-button")
 var yogi = document.querySelector(".dude")
@@ -25,10 +27,14 @@ var userMantraSaying = document.querySelector(".user-mantra")
 var userAffirmationButton = document.querySelector(".user-abutton")
 var UserMantraButton = document.querySelector(".user-mbutton")
 
+
+/*------------------------------------- Event Listeners ------------------------------------*/
 receiveMessageButton.addEventListener("click", generateMessage)
 ownMessageButton.addEventListener("click", createOwnMessage)
 userSubmitButton.addEventListener("click", displayUserMessage)
 
+
+/*------------------------------------- Functions  ------------------------------------*/
 function getRandomIndex(array) {
   return Math.floor(Math.random() * array.length);
 }
